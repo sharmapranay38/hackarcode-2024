@@ -60,7 +60,6 @@ const userSchema = new mongoose.Schema({
     minLength: 5,
     maxLength: 30,
   },
-  userCourse: [userCourseSchema],
 });
 
 const courseSchema = new mongoose.Schema({

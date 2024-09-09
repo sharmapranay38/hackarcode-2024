@@ -21,7 +21,7 @@ courseRouter.get("/allCourses", async (req, res) => {
   }
 });
 
-courseRouter.get("/courses/topic/:topic", async (req, res) => {
+courseRouter.get("/topic/:topic", async (req, res) => {
   const { topic } = req.params;
 
   try {

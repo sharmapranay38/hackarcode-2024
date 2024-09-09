@@ -1,0 +1,92 @@
+[
+  {
+    "_id": 1,
+    "title": "Python Programming",
+    "description": "Become a Python pro! 🚀 This comprehensive tutorial takes you from beginner to hero, covering the basics, machine learning, and web development projects.",
+    "level": "Intermediate",
+    "category": "Programming",
+    "rating": 3,
+    "img": "./assets/courseimg/python_programming.jpg",
+    "trailer": "https://youtu.be/_uQrJ0TkZlc?si=WifCI1d2ErkCqkcS",
+    "active": true
+  },
+  {
+    "_id": 2,
+    "title": "Digital Marketing",
+    "description": "The most lucrative way to increase sales of your business in 2024 is through Digital Marketing!",
+    "level": "Basic",
+    "category": "Marketing",
+    "rating": 3,
+    "img": "./assets/courseimg/digital_marketing.jpg",
+    "trailer": "https://youtu.be/dS0PtshQDls?si=I90eIcEhh3ljofhg",
+    "active": false
+  },
+
+  {
+    "_id": 3,
+    "title": "Advanced DS with Python",
+    "description": "Data Analysis has been around for a long time, but up until a few years ago, it was practiced using closed, expensive and limited tools like Excel or Tableau. Python, SQL and other open libraries have changed Data Analysis forever",
+    "level": "Intermediate",
+    "category": "Data Science",
+    "rating": 4,
+    "img": "./assets/courseimg/ds_python.jpg",
+    "trailer": "https://youtu.be/r-uOLxNrNk8?si=58GbRVQN5Wh4bT7z",
+    "active": false
+  },
+  {
+    "_id": 4,
+    "title": "Graphic Design",
+    "description": "Graphic Design, also known as communication design, is the art and practice of planning and projecting ideas and experiences with visual and textual content. This course is focused on both theoretical and practical parts. The aim of the course is to develop design sense in trainees by the help of theoretical concepts and practice.",
+    "level": "Basic",
+    "category": "Design",
+    "rating": 5,
+    "img": "./assets/courseimg/graphic_design.jpg",
+    "trailer": "https://youtu.be/5_FLHvq4Wwg?si=-GOJId6nyPwAGtJt",
+    "active": false
+  },
+
+  {
+    "_id": 5,
+    "title": "Web Development",
+    "description": "Are you interested in learning web development but find most tutorials in English hard to follow? Look no further! This course is entirely in Hindi and is designed to take you from beginner to pro, one step at a time.",
+    "level": "Advanced",
+    "category": "Web Development",
+    "rating": 4,
+    "img": "./assets/courseimg/webdev.jpg",
+    "trailer": "https://youtu.be/tVzUXW6siu0?si=jdfgsJDuoPAVIMHo",
+    "active": false
+  },
+  {
+    "_id": 6,
+    "title": "Cybersecurity Essentials",
+    "description": "Welcome to TechnologyEssentials! Our channel aims to provide basic insights into growing technologies and nurture the interest for them among young learners.This is the first video in our Cybersecurity Essentials Series.Topic -  What is Cybersecurity? And why is it important? ",
+    "level": "Intermediate",
+    "category": "Cybersecurity",
+    "rating": 4,
+    "img": "./assets/courseimg/cs_essential.jpg",
+    "trailer": "https://youtu.be/GFHZrerq178?si=FXFBGpphXDkTcqjB",
+    "active": false
+  },
+  {
+    "_id": 7,
+    "title": "Introduction to Cloud Computing",
+    "description": "Cloud Computing courses and specializations teach cloud architecture, services, hosting, and more. Differentiate yourself in the IT industry, by learning how to properly leverage the Cloud.",
+    "level": "Basic",
+    "category": "Cloud Computing",
+    "rating": 3,
+    "img": "./assets/courseimg/cloud_computing.jpg",
+    "trailer": "https://youtu.be/HhStJ7FDBpc?si=EHFWKOT-_Y_usq22",
+    "active": false
+  },
+  {
+    "_id": 8,
+    "title": "Mastering Machine Learning",
+    "description": "Machine learning is the study of computer algorithms that can improve automatically through experience and by the use of data. It is seen as a part of artificial intelligence.",
+    "level": "Advanced",
+    "category": "Machine Learning",
+    "rating": 5,
+    "img": "./assets/courseimg/machine_learning.jpg",
+    "trailer": "https://youtu.be/Y4qO9unerGs?si=fN-8biQUWde0wOL2",
+    "active": false
+  }
+]
