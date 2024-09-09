@@ -1,0 +1,8 @@
+{
+  "courseName": "Artificial Intelligence for Everyone",
+  "courseDesc": "Understand the fundamentals of artificial intelligence.",
+  "courseProvider": "Coursera",
+  "coursePlatform": "Online",
+  "topics": [{ "topic": "AI Concepts" }, { "topic": "Machine Learning" }],
+  "rating": 5
+}
