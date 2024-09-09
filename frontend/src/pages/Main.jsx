@@ -59,37 +59,37 @@ function Main() {
     });
   };
 
-  const fetchData = () => {
-    fetch("http://localhost:3000/api/courseData.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setCourses(data);
-        // console.log(data);
-      })
-      .catch((e) => console.log(e.message));
-  };
-
-  // const fetchData = async () => {
-  //   try {
-  //     const response = await axios.get(
-  //       "http://localhost:9000/api/v1/course/allCourses",
-  //       {
-  //         headers: {
-  //           Accept: "application/json", // Indicate that you expect JSON
-  //         },
-  //       }
-  //     );
-
-  //     // Access the data from the response
-  //     const data = response.data;
-  //     console.log("Received data:", data);
-
-  //     // Assuming you have a state or another method to handle this data
-  //     setCourses(data); // Update state or handle the data as needed
-  //   } catch (error) {
-  //     console.error("Error fetching data:", error.message);
-  //   }
+  // const fetchData = () => {
+  //   fetch("http://localhost:3000/api/courseData.json")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setCourses(data);
+  //       // console.log(data);
+  //     })
+  //     .catch((e) => console.log(e.message));
   // };
+
+  const fetchData = async () => {
+    try {
+      const response = await axios.get(
+        "http://localhost:9000/api/v1/course/allCourses",
+        {
+          headers: {
+            Accept: "application/json", // Indicate that you expect JSON
+          },
+        }
+      );
+
+      // Access the data from the response
+      const data = response.data;
+      console.log("Received data:", data);
+
+      // Assuming you have a state or another method to handle this data
+      setCourses(data); // Update state or handle the data as needed
+    } catch (error) {
+      console.error("Error fetching data:", error.message);
+    }
+  };
 
   useEffect(() => {
     fetchData();

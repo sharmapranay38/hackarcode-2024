@@ -67,6 +67,10 @@ const courseSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  _id: {
+    type: Number,
+    required: true,
+  },
   courseDesc: {
     type: String,
     required: true,
