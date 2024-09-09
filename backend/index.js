@@ -9,4 +9,4 @@ app.use(express.json());
 app.use("/api/v1", user);
 app.use("/api/v1/course", courseRouter);
 
-app.listen(3000);
+app.listen(9000);

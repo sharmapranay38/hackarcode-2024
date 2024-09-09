@@ -1,0 +1,19 @@
+.bookmarkTable{
+    margin-top: 50px;
+    color: #ffffff;
+    border-radius: 20px;
+    background-color: var(--bgColor);
+    box-shadow: -5px -5px 15px rgba(225,225,225,0.1),
+    5px 5px 15px rgba(0,0,0,0.35);
+
+}
+
+.bookmarkTable thead tr{
+    font-size: 1.3rem;
+}
+
+.bookmarkTable thead tr th{
+    background: transparent;
+    color: #ffffff;
+}
+

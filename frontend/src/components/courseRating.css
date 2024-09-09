@@ -1,0 +1,8 @@
+.courseCard .courseRating{
+    font-size: 1.3rem;
+    color: var(--second);
+}
+
+.courseCard .courseRating i{
+    margin-left: 2px;
+}

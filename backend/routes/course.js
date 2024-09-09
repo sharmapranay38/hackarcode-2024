@@ -13,7 +13,7 @@ courseRouter.get("/allCourses", async (req, res) => {
       return res.status(404).json({ message: "No courses found" });
     }
 
-    return res.status(200).json({ courses });
+    return res.status(200).json(courses);
   } catch (error) {
     return res
       .status(500)

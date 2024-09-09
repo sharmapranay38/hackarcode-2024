@@ -1,0 +1,98 @@
+.courseCard{
+    position: relative;
+    padding: 25px 20px;
+    margin-bottom: 25px;
+    width: auto;
+    height: 400px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 20px;
+    background: var(--bgColor);
+    box-shadow: -5px -5px 15px rgba(225,225,225,0.1),
+    5px 5px 15px rgba(0,0,0,0.35);
+}
+
+.courseCard img{
+    border-radius: 20px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    object-position: center;
+    height: 50%;
+    width: 100%;
+
+}
+
+.courseCard .like{
+    position: absolute;
+    top: 24px;
+    right: 19px;
+    width: 40px;
+    height: 40px;
+    background: var(--bgColor);
+    padding: 5px;
+    border-radius: 0 0 0 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.courseCard .like.active{
+    color: var(--second);
+}
+
+.courseCard span{
+    color: #ffffff;
+}
+
+.courseCard .courseFeature{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courseCard .courseType{
+    background: var(--second);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.courseCard .courseTitle{
+    margin-top: 10px;
+    font-family: "Bauhaus 93";
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #ffffff;
+}
+
+.courseCard .courseFinished{
+    display: flex;
+    /* background: red; */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.courseCard .addBookmark{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #ffffff;
+    background: var(--second);
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0 20px 0;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+
+.courseCard .addBookmark:hover{
+    background: var(--primary);
+
+}
