@@ -12,7 +12,9 @@ function Bookmark({courses,reference}) {
         </div>    
         {
           courses.length===0?(
-            <h2>Your bookmarks are empty</h2><i class="bi bi-emoji-frown"></i>
+           <>
+              <h2>Your bookmarks are empty</h2><i class="bi bi-emoji-frown"></i>
+           </>
           ):(
             <>
               <div className="row">
